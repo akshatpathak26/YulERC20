@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "kill",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testCall",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SCP/Kill.sol": "Kill"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SCP/Kill.sol": {
+			"keccak256": "0xdbb7d826441e0799112e5866dbbb34b8f204b5780ae5108860ba3b5495d5844f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d6debe897479f97b7b2f4858f7c884e58207240b2e0970342ba09000691b7f05",
+				"dweb:/ipfs/Qmc8HSCrmEp48nnC7Qh5V298XyV5HdrdePWMvEgwzdn3eG"
+			]
+		}
+	},
+	"version": 1
+}

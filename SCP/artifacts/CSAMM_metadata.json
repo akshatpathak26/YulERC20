@@ -1,0 +1,226 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token0",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_token1",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					}
+				],
+				"name": "addLiquidity",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "shares",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_shares",
+						"type": "uint256"
+					}
+				],
+				"name": "removeLiquidity",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "d0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "d1",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reserve0",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reserve1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenIn",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amountIn",
+						"type": "uint256"
+					}
+				],
+				"name": "swap",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountOut",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token0",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token1",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SCP/CSAMM.sol": "CSAMM"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SCP/CSAMM.sol": {
+			"keccak256": "0xb17d23e5f1d25fd635119c9f065d0a05bbaacce5eb3ea2bc0d78830347ad107c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ead8ef0b3f59756197480674dd0bdffd5a33cb92b76da59c69fc00156631b600",
+				"dweb:/ipfs/QmTJPscjqnhwzE4osxmQouZAybWLAcrwTWkMnfdpkmoE6E"
+			]
+		},
+		"SCP/IERC20.sol": {
+			"keccak256": "0xbce55d6212161c705955a472a098c8c03c71ce80f9055fedd849dea9080d88bd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://467eb84393264b859e3c838daddd59f3c286b8247394d24650e3a2f7567f8381",
+				"dweb:/ipfs/QmYwjvdpEcZjzZSj6Z9ZVoaRGkMYWWKnrv4N4tnyyGTx1R"
+			]
+		}
+	},
+	"version": 1
+}

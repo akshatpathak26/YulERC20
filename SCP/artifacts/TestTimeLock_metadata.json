@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_timeLock",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timeLock",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SCP/GasGolf.sol": "TestTimeLock"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SCP/GasGolf.sol": {
+			"keccak256": "0x18309ca47710eeddd8f806392baaa21b1d6426a86d328a84e93b1f2ce1052425",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c723426fd4b7d234afba1d2a2d403b559d47343fc903452806507671b7280e3f",
+				"dweb:/ipfs/QmRK7sv6KTAvy4v3V4tuv3XotfqfEFgLmdxmJ2m7QDDVzK"
+			]
+		}
+	},
+	"version": 1
+}

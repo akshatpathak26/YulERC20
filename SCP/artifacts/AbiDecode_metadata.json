@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "decode",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "nums",
+								"type": "uint256[2]"
+							}
+						],
+						"internalType": "struct AbiDecode.MyStruct",
+						"name": "myStruct",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256[2]",
+								"name": "nums",
+								"type": "uint256[2]"
+							}
+						],
+						"internalType": "struct AbiDecode.MyStruct",
+						"name": "myStruct",
+						"type": "tuple"
+					}
+				],
+				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SCP/ABIDecode.sol": "AbiDecode"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SCP/ABIDecode.sol": {
+			"keccak256": "0x38d26807bb3c511519906b486e6cef9d9d274340d145e70d881ad1ef8ab83ecb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b0f41b63945db003570be6fdfc25a6fe06b0fb81250d2972a54eb805192e2f5",
+				"dweb:/ipfs/QmewZgcLYXfB2d8BXRaugcZV8kUBkoaouq39DxyMFs6GCU"
+			]
+		}
+	},
+	"version": 1
+}
